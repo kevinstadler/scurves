@@ -1,4 +1,4 @@
-data <- read.table(system.file("extdata", "datasets.csv", package="scurves"), header=TRUE, sep="\t")
+data <- read.table(system.file("extdata", "datasets.csv", package="scurves"), header=TRUE, sep="\t", stringsAsFactors=FALSE, colClasses=c(type="factor"))
 
 #' Return meta-information about one or all s-shaped-curves datasets
 #'
