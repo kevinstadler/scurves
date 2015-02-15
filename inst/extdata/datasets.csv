@@ -1,0 +1,26 @@
+# This tab-separated file contains meta-data about all the individual data sets
+# provided by the s-shaped-curves package (as well as a TODO list of data sets
+# that still need to be added, see the end of this file).
+# 
+# The scurves() command from the package simply returns this file read in using the following command:
+# read.table('datasets.csv', header=TRUE, sep='\t')
+
+# This file specifies the following columns:
+#
+# id: character string, a dataset identifier comprised of an 'alpha' citation
+#     style id of the paper in which the data was originally published, followed
+#     by an optional specifier (particularly for publications which contain more than one dataset). the relevant data can be loaded from a tab-separated file of the same name with a .csv extension in this directory.
+# type: factor, specifying whether the variable of the given dataset is
+#       syn(tactic), morph(ological) or phon(etic|ological)
+# nvariants: numeric, the number of competing variants (2 or more)
+# ncontexts: the number of distinct contexts reported in the data set, this
+#            is the same as the number of levels of the dataset's context column
+# realtime: logical, whether data was obtained in real time (vs. apparent time)
+# description: some brief human-readable description of the change
+# variants: character string listing shorthands for all competing variants,
+#           separated by spaces, with the outgoing variant first, followed by
+#           the successful incoming variant and any other competing variants.
+# bibkey: bibtex key of the paper from which the dataset was extracted
+id	type	nvariants	ncontexts	realtime	description	variants	bibkey
+
+Ell53	morph	2	9	TRUE	The rise of periphrastic do in difference sentence types in English, part of this data was famously re-reported in Kroch 1989, amongst others.	_ do	Ellegard1953

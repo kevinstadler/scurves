@@ -1,0 +1,132 @@
+# all data from Ellegard 1953, much of it re-reported in Kroch 1989 where it
+# formed the basis of the 'Constant Rate Hypothesis'/'Constant Rate Effect'.
+# "Of the curves, the one for negative questions is the most irregular one. This
+# is probably due above all to the relatively small number of instances which
+# exposes the samples to chance variations. The humps on the curve for negative
+# declarative sentences should however be regarded as significant. The low
+# figure for 1625-1650 is probably due to the non-colloquial nature of some of
+# the texts in that sample." (p.162-3)
+context	start	end	outgoing	incoming	total
+# table 7 on p.161: affirmative declaratives, negative declaratives, negative
+# questions and negative imperatives (affirmative questions are also reported
+# but the counts are broken down in more detail in a later table, see below)
+AffD	1390-01-01	1399-12-31	NA	6	45000
+AffD	1400-01-01	1424-12-31	NA	11	4600
+AffD	1425-01-01	1474-12-31	NA	121	45500
+AffD	1475-01-01	1499-12-31	NA	1059	59600
+AffD	1500-01-01	1524-12-31	NA	1396	28600
+AffD	1525-01-01	1534-12-31	NA	494	18800
+AffD	1535-01-01	1549-12-31	NA	1564	19200
+AffD	1550-01-01	1574-12-31	NA	1360	14600
+AffD	1575-01-01	1599-12-31	NA	1142	18000
+AffD	1600-01-01	1624-12-31	NA	240	7900
+AffD	1625-01-01	1649-12-31	NA	212	7200
+AffD	1650-01-01	1699-12-31	NA	140	7900
+# Swift	NA	5	2800
+# breakdown of these counts into transitive vs. intransitive in table 16, p.196:
+NegD	1400-01-01	1424-12-31	177	0	177
+NegD	1425-01-01	1474-12-31	892	11	903
+NegD	1475-01-01	1499-12-31	660	33	693
+NegD	1500-01-01	1524-12-31	558	47	605
+NegD	1525-01-01	1534-12-31	562	89	651
+NegD	1535-01-01	1549-12-31	530	205	735
+NegD	1550-01-01	1574-12-31	194	119	313
+NegD	1575-01-01	1599-12-31	479	150	629
+NegD	1600-01-01	1624-12-31	176	102	278
+NegD	1625-01-01	1649-12-31	235	109	344
+NegD	1650-01-01	1699-12-31	148	126	274
+# Swift	9	61	70
+NegQ	1400-01-01	1424-12-31	15	2	17
+NegQ	1425-01-01	1474-12-31	23	2	25
+NegQ	1475-01-01	1499-12-31	24	3	27
+NegQ	1500-01-01	1524-12-31	32	46	78
+NegQ	1525-01-01	1534-12-31	22	34	56
+NegQ	1535-01-01	1549-12-31	21	63	84
+NegQ	1550-01-01	1574-12-31	7	41	48
+NegQ	1575-01-01	1599-12-31	45	83	128
+NegQ	1600-01-01	1624-12-31	6	89	95
+NegQ	1625-01-01	1649-12-31	6	32	38
+NegQ	1650-01-01	1699-12-31	4	48	52
+# Swift	0	16	16
+# Negative imperatives, not considered in Kroch 1989, but in Ogura 1993 
+NegImp	1400-01-01	1424-12-31	52	0	52
+NegImp	1425-01-01	1474-12-31	279	3	282
+NegImp	1475-01-01	1499-12-31	129	0	129
+NegImp	1500-01-01	1524-12-31	164	2	166
+NegImp	1525-01-01	1534-12-31	101	0	101
+NegImp	1535-01-01	1549-12-31	72	0	72
+NegImp	1550-01-01	1574-12-31	39	4	43
+NegImp	1575-01-01	1599-12-31	117	8	125
+NegImp	1600-01-01	1624-12-31	119	65	184
+NegImp	1625-01-01	1649-12-31	16	5	21
+NegImp	1650-01-01	1699-12-31	16	17	33
+# Swift	0	28	28
+# table 19 (p.203): affirmative wh & yes/no questions, by (in)transitivity
+AffQTr	1400-01-01	1424-12-31	3	0	3
+AffQTr	1425-01-01	1474-12-31	50	6	56
+AffQTr	1475-01-01	1499-12-31	64	10	74
+AffQTr	1500-01-01	1524-12-31	69	22	91
+AffQTr	1525-01-01	1534-12-31	8	18	26
+AffQTr	1535-01-01	1549-12-31	35	56	91
+AffQTr	1550-01-01	1574-12-31	15	42	57
+AffQTr	1575-01-01	1599-12-31	36	137	173
+AffQTr	1600-01-01	1624-12-31	63	214	277
+AffQTr	1625-01-01	1649-12-31	6	60	66
+AffQTr	1650-01-01	1699-12-31	4	72	76
+# Swift	0	33	33
+AffQIn	1400-01-01	1424-12-31	7	0	7
+AffQIn	1425-01-01	1474-12-31	86	0	86
+AffQIn	1475-01-01	1499-12-31	68	0	68
+AffQIn	1500-01-01	1524-12-31	71	19	90
+AffQIn	1525-01-01	1534-12-31	61	15	76
+AffQIn	1535-01-01	1549-12-31	79	37	116
+AffQIn	1550-01-01	1574-12-31	41	30	71
+AffQIn	1575-01-01	1599-12-31	114	91	205
+AffQIn	1600-01-01	1624-12-31	118	192	310
+AffQIn	1625-01-01	1649-12-31	18	56	74
+AffQIn	1650-01-01	1699-12-31	39	92	131
+# Swift	3	20	23
+# a different view on the same data: affirmative questions broken down by type:
+# "we should therefore expect the do-form to be relatively more frequent in
+# those questions where the simple verb form had to be followed by both subject
+# and object. In the first place, do should be less frequent in questions with
+# the object placed at the head (object questions, o: what said he?), in the
+# second place, it should be less frequent in adverb-questions, a (when came
+# he?) and verb-questions, v (went he?), when the verb was intransitive" (p.202)
+# corresponding data from table 20, p.204:
+AffQv	1400-01-01	1424-12-31	1	0	1
+AffQv	1425-01-01	1474-12-31	37	1	38
+AffQv	1475-01-01	1499-12-31	35	5	40
+AffQv	1500-01-01	1524-12-31	41	14	55
+AffQv	1525-01-01	1534-12-31	14	12	26
+AffQv	1535-01-01	1549-12-31	44	40	84
+AffQv	1550-01-01	1574-12-31	18	49	67
+AffQv	1575-01-01	1599-12-31	47	155	202
+AffQv	1600-01-01	1624-12-31	52	329	381
+AffQv	1625-01-01	1649-12-31	10	79	89
+AffQv	1650-01-01	1699-12-31	13	109	122
+# Swift	0	37	37
+AffQa	1400-01-01	1424-12-31	9	0	9
+AffQa	1425-01-01	1474-12-31	98	5	103
+AffQa	1475-01-01	1499-12-31	97	5	102
+AffQa	1500-01-01	1524-12-31	99	27	126
+AffQa	1525-01-01	1534-12-31	55	21	76
+AffQa	1535-01-01	1549-12-31	70	53	123
+AffQa	1550-01-01	1574-12-31	38	23	61
+AffQa	1575-01-01	1599-12-31	103	73	176
+AffQa	1600-01-01	1624-12-31	129	77	206
+AffQa	1625-01-01	1649-12-31	14	37	51
+AffQa	1650-01-01	1699-12-31	30	55	85
+# Swift	3	16	19
+AffQo	1400-01-01	1424-12-31	1	0	1
+AffQo	1425-01-01	1474-12-31	27	0	27
+AffQo	1475-01-01	1499-12-31	50	1	51
+AffQo	1500-01-01	1524-12-31	55	7	62
+AffQo	1525-01-01	1534-12-31	57	6	63
+AffQo	1535-01-01	1549-12-31	65	8	73
+AffQo	1550-01-01	1574-12-31	48	27	75
+AffQo	1575-01-01	1599-12-31	74	46	120
+AffQo	1600-01-01	1624-12-31	120	51	171
+AffQo	1625-01-01	1649-12-31	31	35	66
+AffQo	1650-01-01	1699-12-31	23	28	51
+# Swift	4	11	15
